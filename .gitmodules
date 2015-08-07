@@ -1,0 +1,20 @@
+[submodule ".nvm"]
+	path = .nvm
+	url = https://github.com/creationix/nvm.git
+	ignore = all
+[submodule ".vim/bundle/Vundle.vim"]
+	path = .vim/bundle/Vundle.vim
+	url = https://github.com/gmarik/Vundle.vim.git
+	ignore = all
+[submodule ".rbenv"]
+	path = .rbenv
+	url = https://github.com/sstephenson/rbenv.git
+	ignore = all
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = git://github.com/robbyrussell/oh-my-zsh.git
+	ignore = all
+[submodule ".pyenv"]
+	path = .pyenv
+	url = https://github.com/pyenv/pyenv
+	ignore = all

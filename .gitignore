@@ -1,0 +1,17 @@
+# everything
+/*
+/.*
+
+# not README
+!/README.md
+
+# not git
+!/.gitmodules
+!/.gitignore
+
+# not vim
+!/.vimrc
+
+# not zsh
+!/.zshrc
+!/.zshenv
