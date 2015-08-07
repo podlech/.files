@@ -33,7 +33,8 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'lervag/vimtex'
 Plugin 'fatih/vim-go'
-Plugin 'Valloric/YouCompleteMe'
+Plugin 'udalov/kotlin-vim'
+" Plugin 'Valloric/YouCompleteMe'
 Bundle 'joshdick/onedark.vim'
 
 " All of your Plugins must be added before the following line
@@ -63,7 +64,10 @@ set autoread
 " :set nopaste
 set backspace=indent,eol,start
 set mouse=a
-set diffopt+=vertical
+if &diff
+    set diffopt-=internal
+    set diffopt+=vertical
+endif
 
 let g:indentLine_color_term = 239
 let g:indentLine_color_gui = '#A4E57E'
@@ -102,3 +106,4 @@ endif
 
 colorscheme onedark
 let g:airline_theme='onedark'
+
