@@ -3,7 +3,7 @@
 
 ```sh
 cd ~
-git clone https://github.com/jpodlech/.files.git
+git clone git@github.com:podlech/.files.git
 mv ~/.files/.git ~
 rm -rf ~/.files
 git checkout .
