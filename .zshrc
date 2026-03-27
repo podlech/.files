@@ -87,7 +87,7 @@ if [ -e ~/.aliases ]; then source ~/.aliases; fi
 
 source ~/.zshenv
 
-if hash tmux 2>/dev/null; then [[ $TERM != "screen" ]] && (tmux attach || tmux); fi
+# if hash tmux 2>/dev/null; then [[ $TERM != "screen" ]] && (tmux attach || tmux); fi
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
